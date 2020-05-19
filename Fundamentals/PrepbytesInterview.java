@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 
 public class PrepbytesInterview{
@@ -10,9 +9,10 @@ public class PrepbytesInterview{
         }
         else {
             if(a!=1) {
-
+                return false;
             }
         }
+        return false;
     }
     public static void main(String args[]) throws IOException {
         BufferedReader p = new BufferedReader(new InputStreamReader(System.in));
